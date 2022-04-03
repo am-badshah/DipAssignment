@@ -1,3 +1,6 @@
+% {This script count the total number of coins and each coin value ang give you the sum.
+[its a very basic one thats only check the size of each coin and if its in some area threshold its places into ones, two and fives].
+NOTE: the images must be take from the same height as the algo is filtering the coins depending on its area }%
 f=imread('abdul.jpg');
 b=im2bw(f,130/255);
 
